@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'League Spartan', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  color: black;
+}
+
+/* Custom styles for react-datepicker */
+.react-datepicker {
+  font-family: 'League Spartan', system-ui, -apple-system, sans-serif !important;
+  border-color: #e5e7eb !important;
+}
+
+.react-datepicker__week-number {
+  color: #6b7280 !important;
+  font-size: 0.875rem !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: #2f7622 !important;
+}
+
+.react-datepicker__day--selected:hover {
+  background-color: #266219 !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #f3f4f6 !important;
+}
+
+.react-datepicker__header {
+  background-color: #f9fafb !important;
+  border-bottom-color: #e5e7eb !important;
+}
